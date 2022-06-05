@@ -5,6 +5,9 @@
   "scripts": {
     "start": "node DemoServer.js"
   },
+  "engines":{
+	  "node":"12.19.0"
+  },
   "dependencies": {
     "agora-access-token": "^2.0.1",
     "express": "3.4.8"
