@@ -4,7 +4,7 @@ var http = require('http');
 var express = require('express');
 var {RtcTokenBuilder, RtmTokenBuilder, RtcRole, RtmRole} = require('agora-access-token')
 
-var PORT = 8080;
+var PORT = process.env.PORT || 4000;
 
 // Fill the appID and appCertificate key given by Agora.io
 var appID = "c91d12fcade740fb9cdf698e33654f37";
